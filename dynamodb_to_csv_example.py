@@ -36,7 +36,7 @@ def get_data():
     return renewals_data
 
 def main():
-    #write date to csv
+    #write data to csv
     outputfile = open(filename, 'w')
     csvwriter = csv.writer(outputfile)
 
